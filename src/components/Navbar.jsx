@@ -2,10 +2,12 @@ import React, { use } from "react";
 import { Link, NavLink } from "react-router";
 import User from "../assets/user.png";
 import { AuthContext } from "../provider/AuthContext";
+
 const Navbar = () => {
 
   const {user,signOutUser} = use(AuthContext);
-  console.log(user);
+  // console.log(user);
+
 
   const handelSignOut = () => {
     signOutUser();

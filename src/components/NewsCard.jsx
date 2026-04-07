@@ -50,7 +50,7 @@ const NewsCard = ({ news }) => {
         {details.length > 200 ? (
           <>
             {details.slice(0, 200)}...
-            <Link to={`/cetagory/${id}`} className="text-primary font-semibold cursor-pointer hover:underline">
+            <Link to={`/Cetagory/${id}`} className="text-primary font-semibold cursor-pointer hover:underline">
               Read More
             </Link>
           </>
